@@ -15,7 +15,7 @@ import java.util.List;
 
 @RefreshScope
 @RestController
-@RequestMapping("cars")
+@RequestMapping("bikes")
 public class CarController {
 
     @Autowired
