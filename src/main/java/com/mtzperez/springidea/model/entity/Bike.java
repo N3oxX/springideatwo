@@ -13,14 +13,14 @@ import javax.persistence.Id;
 @AllArgsConstructor
 @Getter
 @Setter
-public class Car {
+public class Bike {
     @Id
     @GeneratedValue
     @JsonProperty(access = JsonProperty.Access.READ_ONLY)
     private Integer id;
     public String name;
 
-    public Car(String name) {
+    public Bike(String name) {
         this.name = name;
     }
 }
